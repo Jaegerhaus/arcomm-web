@@ -1,0 +1,17 @@
+
+.HomePage {
+  &-content {
+    .column p {
+      text-align: justify;
+    }
+  }
+  &-heroLogo {
+    content: url("../../scss/img/logo.png");
+    max-width: 100%;
+  }
+}
+
+.is-jumbo {
+  font-size: 5em;
+  margin-top: -2rem;
+}
